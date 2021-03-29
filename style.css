@@ -1,0 +1,75 @@
+div#page {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	margin-top: 15px;
+	border-bottom: 25px solid #c19eca;
+	border-top: 25px solid #c19eca;
+	text-align: center;
+	background: #ebe7f1;
+}
+
+div#info {
+	width: 960px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 20px;
+}
+div#info-leftside {
+	width:480px;
+	float: left;
+	text-align: center;
+}
+img {
+	margin-top: 30px;
+	width: 60%;
+}
+div#info-rightside {
+	margin: 30px 10px 10px 30px;
+	width: 440px;
+	float: right;
+}
+
+div#education {
+	width: 960px;
+	
+	display: inline-block;
+	float: left;
+}
+h2 {
+	height: 60px;
+	line-height: 60px;
+	background: #c19eca;
+	text-align: center;
+	border-bottom: 10px solid #8977ad;
+	border-top: 10px solid #8977ad;
+}
+div#leftside {
+	width: 480px;
+	float: left;
+}
+div#rightside {
+	width: 480px;
+	float: right;
+	text-align: right;
+}
+div#WorkExperience {
+	width: 960px;
+	
+	display: inline-block;
+	float: left;
+}
+div#upperside {
+	width: 960px;	
+	display: inline-block;
+	float: left;
+	
+}
+div#skills {
+	width: 960px;	
+	display: inline-block;
+	float: left;
+	margin-bottom: 30px;
+}
