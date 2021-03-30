@@ -2,13 +2,16 @@ div#page {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	
+}
+body {
+	background: #F2F0A1;
 }
 header {
 	margin-top: 15px;
-	border-bottom: 25px solid #c19eca;
-	border-top: 25px solid #c19eca;
+	border-bottom: 25px double #88B04B;
+	border-top: 25px double #88B04B;
 	text-align: center;
-	background: #ebe7f1;
 }
 
 div#info {
@@ -41,10 +44,10 @@ div#education {
 h2 {
 	height: 60px;
 	line-height: 60px;
-	background: #c19eca;
+	background-color: #F4F5F0;
 	text-align: center;
-	border-bottom: 10px solid #8977ad;
-	border-top: 10px solid #8977ad;
+	border-bottom: 10px solid #ADB0B1;
+	border-top: 10px solid #ADB0B1;
 }
 div#leftside1 #leftside2 #leftside3 #leftside4{
 	width: 480px;
