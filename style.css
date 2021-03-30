@@ -49,11 +49,11 @@ h2 {
 	border-bottom: 10px solid #ADB0B1;
 	border-top: 10px solid #ADB0B1;
 }
-div#leftside1 #leftside2 #leftside3 #leftside4{
+div#leftside1, #leftside2, #leftside3, #leftside4{
 	width: 480px;
 	float: left;
 }
-div#rightside1 #rightside2 #rightside3 #rightside4 {
+div#rightside1, #rightside2, #rightside3, #rightside4 {
 	width: 480px;
 	float: right;
 	text-align: right;
