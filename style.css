@@ -8,10 +8,25 @@ body {
 	background: #F2F0A1;
 }
 header {
+	width: 960px;
+	display: inline-block;
 	margin-top: 15px;
 	border-bottom: 25px double #88B04B;
 	border-top: 25px double #88B04B;
 	text-align: center;
+}
+h1 {
+	width:570px;
+	float: left;
+	text-align: right;
+}
+header ul{
+	width:350px;
+	float: right;
+	margin-top: 30px;
+}
+header ul li{
+	display: inline;
 }
 
 div#info {
@@ -75,4 +90,44 @@ div#skills {
 	display: inline-block;
 	float: left;
 	margin-bottom: 30px;
+}
+
+div#hci1, #hci2 {
+	width: 960px;	
+	display: inline-block;
+	float: left;
+}
+div#hci1-left, #hci2-left{
+	width:480px;
+	float: left;
+}
+div#hci1-right, #hci2-right{
+	width: 440px;
+	float: right;
+}
+video{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+div#aboutme{
+	width: 960px;	
+	display: inline-block;
+	float: left;
+}
+div#aboutme-left{
+	width:430px;
+	float: left;	
+}
+div#aboutme-left img{
+	width: 450px;
+}
+div#aboutme-right{
+	margin: 20px 10px 10px 30px;
+	width: 440px;
+	float: right;	
+}
+div#aboutme-right img{
+	width: 430px;
 }
