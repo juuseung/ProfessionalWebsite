@@ -1,8 +1,7 @@
 div#page {
 	width: 960px;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 body {
 	background: #F2F0A1;
@@ -11,25 +10,28 @@ header {
 	width: 960px;
 	display: inline-block;
 	margin-top: 15px;
-	border-bottom: 25px double #88B04B;
-	border-top: 25px double #88B04B;
+	border-bottom: 15px double #88B04B;
+	border-top: 15px double #88B04B;
 	text-align: center;
 }
 h1 {
-	width:570px;
+	width:540px;
 	float: left;
 	text-align: right;
+	font-family: Arial, sans-serif;
 }
 header ul{
-	width:350px;
+	width:380px;
 	float: right;
 	margin-top: 30px;
+	font-family: "Lucida Console", monospace;
+	font-size: 1.0em;
+	text-align: right;
 }
 header ul li{
 	display: inline;
 }
-
-div#info {
+section#info {
 	width: 960px;
 	display: inline-block;
 	float: left;
@@ -48,21 +50,27 @@ div#info-rightside {
 	margin: 30px 10px 10px 30px;
 	width: 440px;
 	float: right;
+	font-family: Arial, sans-serif;
 }
-
-div#education {
-	width: 960px;
-	
+section#education {
+	width: 960px;	
 	display: inline-block;
 	float: left;
+	margin-bottom: 20px;
+	font-family: Arial, sans-serif;
 }
 h2 {
 	height: 60px;
 	line-height: 60px;
 	background-color: #F5F5DC;
-	text-align: center;
-	border-bottom: 10px solid #ADB0B1;
-	border-top: 10px solid #ADB0B1;
+	text-align: left;
+	border-bottom: 6px solid #ADB0B1;
+	border-top: 6px solid #ADB0B1;
+	color: #68863A;
+}
+hr {
+	border: 1px solid #ADB0B1;
+	background-color: #ADB0B1;
 }
 div#leftside1, #leftside2, #leftside3, #leftside4{
 	width: 480px;
@@ -73,35 +81,35 @@ div#rightside1, #rightside2, #rightside3, #rightside4 {
 	float: right;
 	text-align: right;
 }
-div#WorkExperience {
-	width: 960px;
-	
+section#WorkExperience {
+	width: 960px;	
 	display: inline-block;
 	float: left;
+	margin-bottom: 20px;
+	font-family: Arial, sans-serif;
 }
 div#upperside {
 	width: 960px;	
 	display: inline-block;
-	float: left;
-	
+	float: left;	
 }
-div#skills {
+section#skills {
 	width: 960px;	
 	display: inline-block;
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+	font-family: Arial, sans-serif;
 }
-
-div#hci1, #hci2 {
+section#hci1, #hci2 {
 	width: 960px;	
 	display: inline-block;
 	float: left;
 }
-div#hci1-left, #hci2-left{
+section#hci1-scenario, #hci2-demo{
 	width:480px;
 	float: left;
 }
-div#hci1-right, #hci2-right{
+section#hci1-devEnvironment, #hci2-play{
 	width: 440px;
 	float: right;
 }
@@ -111,23 +119,42 @@ video{
   margin-left: auto;
   margin-right: auto;
 }
-div#aboutme{
+section#aboutme{
 	width: 960px;	
 	display: inline-block;
 	float: left;
+	margin-bottom: 50px;
 }
-div#aboutme-left{
+section#aboutme-left{
 	width:430px;
 	float: left;	
 }
-div#aboutme-left img{
-	width: 450px;
-}
-div#aboutme-right{
-	margin: 20px 10px 10px 30px;
-	width: 440px;
-	float: right;	
-}
-div#aboutme-right img{
+section#aboutme-left img{
 	width: 430px;
+}
+section#aboutme-right{
+	margin-top: 10px;
+	width: 440px;
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+}
+section#aboutme-right img{
+	width: 420px;
+}
+h3 {
+	color: #232521;
+}
+h4 {
+	color: #807E7E;
+}
+footer{
+  font-size: 1em;
+  width: auto;
+  clear: both;
+  background: #A3CF63;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  height: 40px;
+  line-height: 40px;
 }
