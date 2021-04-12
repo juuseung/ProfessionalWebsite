@@ -109,6 +109,7 @@ section#hci1, #hci2 {
 	width: 960px;	
 	display: inline-block;
 	float: left;
+	margin-bottom: 20px;
 }
 section#hci1-scenario, #hci2-demo{
 	width:480px;
