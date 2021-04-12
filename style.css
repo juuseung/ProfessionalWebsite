@@ -15,21 +15,26 @@ header {
 	text-align: center;
 }
 h1 {
-	width:540px;
+	width:550px;
 	float: left;
 	text-align: right;
 	font-family: Arial, sans-serif;
 }
 header ul{
-	width:380px;
+	width:370px;
 	float: right;
 	margin-top: 30px;
 	font-family: "Lucida Console", monospace;
-	font-size: 1.0em;
+	font-size: 1.15em;
 	text-align: right;
 }
 header ul li{
 	display: inline;
+	background: #A3CF63;
+}
+nav {
+	width:380px;
+	float: right;	
 }
 section#info {
 	width: 960px;
